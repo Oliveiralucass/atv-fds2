@@ -107,6 +107,27 @@
 }
 
 
+/* POSTS DEFAULT STYLE */
+.post-reaction-status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+
+/* POST 1 */
+.post-1-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px 30px 0;
+    border-radius: 4px;
+}
+
+
+
 
 
 
