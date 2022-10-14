@@ -1,1 +1,12 @@
 @import url(../styles/global.css);
+
+.index-container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.footer-container {
+    margin-top: 600px;
+    border-top: 1px solid #E7E7E7;
+    background: linear-gradient(180deg, #f1f4f8cc 0%, #f1f4f800 100%);
+}
