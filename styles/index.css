@@ -1,2 +1,112 @@
 @import url(../styles/global.css);
 
+
+/* ==== ==== FEED PAGE ==== ==== */
+.index-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 5%;
+}
+.index-container hr {
+    opacity: 0.15;
+}
+.index-container span {
+    color: var(--text-secondary-color);
+}
+.index-container span:hover {
+    color: rgb(2, 117, 177, 0.6);
+}
+
+
+/* ---- ---- MAIN ---- ---- */
+.index-main-container {
+    width: 70%;
+}
+
+/* NEW POST */
+.new-post-container {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 30px 0;
+    background-color: white;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+}
+.new-post-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.new-post-title {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+.new-post-content input {
+    border: none;
+    height: 40px;
+    width: 75%;
+}
+.new-post-content input:focus {
+    outline: none;
+}
+.new-post-content input::placeholder {
+    font-size: 1.125rem;
+}
+.new-post-icons {
+    display: flex;
+    gap: 20px;    
+}
+.new-post-icons img {
+    cursor: pointer;
+}
+
+
+/* SORT BY */
+.sort-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.sort-container hr {
+    width: 40%;
+}
+.sort-container p {
+    display: flex;
+    gap: 5px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+.sort-container span {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ASIDE */
+.index-aside-container {
+    background-color: white;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

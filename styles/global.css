@@ -43,7 +43,7 @@ header{
 }
 .header-container{
     display: flex;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     align-items: center;
     justify-content: space-around;
@@ -97,7 +97,7 @@ header{
     gap: 10px;
 }
 
-.header-profile-content div p, span{
+.header-profile-content div p, .header-profile-content span{
     font-size: 0.75rem; 
     color: var(--text-primary-color);
     font-weight: 600;
@@ -135,6 +135,7 @@ header{
     max-width: 1200px;
 }
 .footer-container {
+    margin-top: 500px;
     display: flex;
     height: 215px;
     max-height: 215px;
