@@ -1,91 +1,323 @@
 @import url(../styles/global.css);
 
-/* HEADER MAIN*/
+/* ==== ==== PROFILE ==== ==== */
 
-header{
-    width: 100%;
-    box-shadow: 0px 10px 40px rgba(89, 120, 150, 0.06);
-    border-radius: 4px; 
-}
-.header-container{
-    display: flex;
+.profile-container{
     max-width: 1200px;
     margin: 0 auto;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px 0;
-}
-
-/* HEADER NAV*/
-
-.header-nav nav ul{
     display: flex;
-    gap: 40px;
+    gap: 5%;
 }
-.header-nav nav ul li{
+.profile-container main{
+    max-width: 70%;
     display: flex;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 600;
-}
-
-/* HEADER SEARCH */
-
-.header-search{
-    display: flex;
-    gap: 10px;
-}
-.header-search input{
-    outline: none;
-    border: none;
-    min-width: 50px;
-    background-color: inherit;
-}
-
-/* HEADER PROFILE */
-
-.header-profile{
-    display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 20px;
 }
-.header-profile-content{
+.profile-container aside{
+    max-width: 25%;
     display: flex;
     flex-direction: column;
+    gap: 20px;
+}
+
+/* ==== ==== PROFILE FIRST SECTION ==== ==== */
+
+.profile-first-section{
+    display: flex;
+    flex-direction: column;
+}
+.profile-first-section-bg{
+    background-image: url(../assets/profile-bg.png);
+    width: 100%;
+    height: 180px;
+}
+/* PROFILE BG*/
+.profile-bg-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 0 10px;
+    font-size: 0.75rem;
+    color: var(--text-primary-color);
+    font-weight: 600;
+}
+.profile-bg-content div{
+    display: flex;
+    align-items: center;
+}
+.profile-bg-card{
+    padding: 8px ;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 4px;
+}
+.profile-bg-content-right{
+    display: flex;
+    gap: 20px;
+    margin-right: 10px;
+}
+.profile-bg-content-right div:last-child{
+    padding: 6px 8px;
+}
+/* PROFILE CONTENT*/
+.profile-first-section-content{
+    display: flex;
+    gap: 20px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+.profile-perfil-content-img{
+    position: relative;
+    margin: -40px 0 0 20px;
+}
+.profile-perfil-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.profile-perfil-info-all{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.profile-perfil-info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+div.profile-perfil-buttons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+/* ==== ==== PROFILE SECOND SECTION ==== ==== */
+
+.profile-second-section{
+    display: flex;
+    flex-direction: column;
+}
+/* PROFILE BUTTONS*/
+.profile-second-buttons{
+    display: flex;
+    align-items: flex-end;
+}
+.profile-second-buttons button{
+    width: 240px;
+    height: 40px;
+}
+.profile-second-buttons button:first-child{
+    width: 240px;
+    height: 50px;
+}
+.profile-space-gradient{
+    background: linear-gradient(180deg, rgba(241, 244, 248, 0.8) 0%, rgba(241, 244, 248, 0) 100%);
+    width: 100%;
+    height: 50px;
+}
+/* PROFILE ABOUT */
+.profile-about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 60px 30px 35px;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+}
+
+/* ==== ==== PROFILE THIRD SECTION ==== ==== */
+
+.profile-third-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 4px;
+    gap: 30px;
+}
+.profile-third-title{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+/*PROFILE CARDS */
+.profile-third-cards{
+    display: flex;
     justify-content: space-between;
 }
-.header-profile-content div{
+
+/* ==== ==== PROFILE FOURTH SECTION ==== ==== */
+
+.profile-fourth-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    gap: 30px;
+}
+/*PROFILE CARDS */
+.profile-fourth-cards-all{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.profile-fourth-card{
+    display: flex;
+    flex-direction: column;
+    padding: 14px 20px 16px;
+    border: 1px solid #F4F4F4;
+    border-radius: 6px;
+    gap: 5px;
+}
+.profile-fourth-card div{
+    display: flex;
+    gap: 50px;
+}
+.profile-fourth-card img{ 
+    max-width: 100px;
+    max-height: 25px;
+}
+
+/* ==== ==== PROFILE FIFTH SECTION ==== ==== */
+
+.profile-fifth-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    gap: 30px;
+}
+/*PROFILE CARDS */
+.profile-fifth-card-all{
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+.profile-fifth-card{
+    display: flex;
+    gap: 20px;
+}
+.profile-fifth-info-all{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.profile-fifth-info{
     display: flex;
     gap: 10px;
 }
-
-.header-profile-content div p, span{
-    font-size: 0.75rem; 
-    color: var(--text-primary-color);
+.profile-fifth-info-text{
+    font-size: 0.625rem;
     font-weight: 600;
 }
-.header-profile-content div:first-child span{
-    color: var(--text-primary-color);
-    opacity: 0.2;
-}
-.header-profile-content div:last-child p{
-    color: #747474;
-}
-.header-profile-content div:last-child span{
-    color: #02B033;
-}
 
-/* HEADER MORE */
+/* ==== ==== PROFILE SIXTH SECTION ==== ==== */
 
-.header-more{
+.profile-sixth-section{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    gap: 5px;
-    font-size: 12px;
-    font-weight: 600;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    gap: 30px;
 }
-.header-more span{
-    font-size: 2rem;
-    line-height: 0.875;
+/*PROFILE CARDS */
+.profile-sixth-card{
+    display: flex;
+    gap: 40px
+}
+.profile-sixth-card div img{
+    width: 54px;
+    height: 54px;
+}
+.profile-sixth-info-all{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.profile-sixth-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* ==== ==== PROFILE FIRST ASIDE ==== ==== */
+
+.profile-first-aside{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+    padding: 25px 30px 30px;
+    gap: 20px;
+}
+.profile-first-aside-title{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+/* ==== ==== PROFILE SECOND ASIDE ==== ==== */
+
+.profile-second-aside{
+    display: flex;
+    flex-direction: column;
+    background-color: #FCFDFD;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+    padding: 25px 30px 30px;
+    gap: 20px;
+}
+.profile-second-aside-title{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F4F4F4;
+}
+.profile-second-aside-cards-all{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.profile-second-aside-card{
+    display: flex;
+    gap: 15px;
+}
+
+
+/* ==== ==== PROFILE THIRD ASIDE ==== ==== */
+
+.profile-third-aside{
+    display: flex;
+    flex-direction: column;
+    background-color: #FCFDFD;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+    padding: 25px 30px 30px;
+    gap: 20px;
+}
+.profile-third-aside-title{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F4F4F4;
+}
+.profile-third-aside-cards-all{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.profile-third-aside-card{
+    display: flex;
+    gap: 15px;
 }
