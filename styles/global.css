@@ -130,3 +130,116 @@ header{
     font-size: 2rem;
     line-height: 0.875;
 }
+
+/* ---- ---- FOOTER ---- ---- */
+.index-container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.footer-container {
+    margin-top: 40px;
+    display: flex;
+    height: 215px;
+    max-height: 215px;
+    border-top: 1px solid #E7E7E7;
+    background: linear-gradient(180deg, #f1f4f8cc 0%, #f1f4f800 100%);
+}
+.footer-content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.footer-content p {
+    font-size: 0.80rem;
+    font-weight: 700;
+    user-select: none;
+}
+
+/* FOOTER LINKS */
+.footer-nav {
+    display: flex;
+    gap: 40px;
+}
+.footer-nav-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-nav-2,
+.footer-nav-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+}
+.footer-nav li {
+    padding-bottom: 10px;
+}
+.footer-nav-1 li:last-child,
+.footer-nav-2 li:last-child,
+.footer-nav-3 li:last-child {
+    padding-bottom: 0;
+}
+.footer-nav ul li a {
+    color: var(--text-primary-color);
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+.footer-nav ul li a:hover {
+    color: var(--text-secondary-color);
+}
+
+/* FOOTER BUTTONS */
+.footer-buttons {
+    display: flex;
+    flex-direction: column;
+}
+.footer-buttons p {
+    padding-bottom: 25px;
+}
+.footer-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+    height: 35px;
+    margin-bottom: 10px;
+    padding: 0 15px 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid var(--text-secondary-color);
+}
+.footer-btn-1 {
+    color: white;
+    background-color: var(--text-secondary-color);
+}
+.footer-btn-1:hover {
+    background-color: rgb(2, 117, 177, 0.8);
+}
+.footer-btn-2 {
+    background-color: transparent;
+    color: var(--text-secondary-color);
+}
+.footer-btn-2:hover {
+    background-color: white;
+}
+
+/* FOOTER LANGUAGES */
+.footer-lang {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.footer-lang select {
+    width: 270px;
+    height: 30px;
+    border: none;
+    text-transform: uppercase;
+    padding: 0 15px 0;
+    font-weight: 500;
+}
