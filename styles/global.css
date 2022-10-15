@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
-/* @import url(../styles/profile-page.css); */
+@import url(../styles/profile-page.css);
 @import url(../styles/index.css);
 
 :root {
     --background-color: #F7F9FB;
     --text-primary-color: #181818;
     --text-secondary-color: #0275B1;
-    --link-hover-color: rgb(2, 117, 177, 0.6);
     --detail-color: #E9F0F8;
 }
 
@@ -39,12 +38,12 @@ input, button, textarea {
 header{
     width: 100%;
     box-shadow: 0px 10px 40px rgba(89, 120, 150, 0.06);
-    border-radius: 4px;
+    border-radius: 4px; 
     margin-bottom: 40px;
 }
-.header-container{
+.header-container{  
     display: flex;
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
     align-items: center;
     justify-content: space-around;
@@ -67,7 +66,10 @@ header{
     font-size: 12px;
     font-weight: 600;
 }
-
+.header-count{
+    position: absolute;
+    margin: -5px 0 0 -10px ;
+}
 /* HEADER SEARCH */
 
 .header-search{
