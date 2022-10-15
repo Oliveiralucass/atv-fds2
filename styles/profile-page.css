@@ -86,10 +86,45 @@
     gap: 10px;
     align-items: center;
 }
+.profile-perfil-info h2{
+   font-size: 1.125rem;
+}
+.profile-perfil-info p{
+    font-size: 0.75rem;
+ }
+.profile-perfil-text p{
+    font-size:0.875rem;
+}
+
+/*  PROFILE BUTTONS */
+
 div.profile-perfil-buttons{
     display: flex;
     justify-content: flex-start;
     gap: 20px;
+}
+.profile-primary-button{
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    width: 170px;
+    height: 32px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.profile-secondary-button{
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid var(--text-secondary-color);
+    outline: none;
+    color: var(--text-secondary-color);
+    width: 170px;
+    height: 32px;
+    font-size: 0.75rem;
+    font-weight: 600;
 }
 
 /* ==== ==== PROFILE SECOND SECTION ==== ==== */
@@ -104,29 +139,50 @@ div.profile-perfil-buttons{
     align-items: flex-end;
 }
 .profile-second-buttons button{
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #E7E7E7;
+    outline: none;
+    color: var(--text-primary-color);
     width: 240px;
     height: 40px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    
 }
 .profile-second-buttons button:first-child{
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+    border-radius: 4px 4px 0 0;
+    border: none;
+    outline: none;
+    color: #ffffff;
     width: 240px;
     height: 50px;
-}
-.profile-space-gradient{
-    background: linear-gradient(180deg, rgba(241, 244, 248, 0.8) 0%, rgba(241, 244, 248, 0) 100%);
-    width: 100%;
-    height: 50px;
+    font-size: 0.75rem;
+    font-weight: 500;
 }
 /* PROFILE ABOUT */
 .profile-about{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     background-color: #ffffff;
     padding: 60px 30px 35px;
     box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
     border-radius: 4px;
 }
-
+.profile-about h2{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.profile-about p{
+    font-size: 0.875rem;
+}
+.profile-about a{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #0275B1;
+}
 /* ==== ==== PROFILE THIRD SECTION ==== ==== */
 
 .profile-third-section{
@@ -142,10 +198,32 @@ div.profile-perfil-buttons{
     align-items: center;
     gap: 30px;
 }
+.profile-third-title h2{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.profile-third-title span{
+    font-size: 1.125rem;
+    color: #747474;
+}
+.profile-third-section div a{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #0275B1;
+}
 /*PROFILE CARDS */
 .profile-third-cards{
     display: flex;
     justify-content: space-between;
+}
+.profile-third-cards div p{
+    font-size: 0.875rem;
+    line-height: 21px;
+    font-weight: 700;
+}
+.profile-third-cards div span{
+    font-size: 0.625rem;
+    font-weight: 500;
 }
 
 /* ==== ==== PROFILE FOURTH SECTION ==== ==== */
@@ -158,6 +236,15 @@ div.profile-perfil-buttons{
     border-radius: 4px;
     box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
     gap: 30px;
+}
+.profile-fourth-section h2{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.profile-fourth-section div a{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #0275B1; 
 }
 /*PROFILE CARDS */
 .profile-fourth-cards-all{
@@ -177,6 +264,15 @@ div.profile-perfil-buttons{
     display: flex;
     gap: 50px;
 }
+.profile-fourth-card div p{
+   font-size: 0.875rem;
+   font-weight: 600;
+}
+.profile-fourth-card div span{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-secondary-color);
+}
 .profile-fourth-card img{ 
     max-width: 100px;
     max-height: 25px;
@@ -193,6 +289,10 @@ div.profile-perfil-buttons{
     box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
     gap: 30px;
 }
+.profile-fifth-section h2{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
 /*PROFILE CARDS */
 .profile-fifth-card-all{
     display: flex;
@@ -208,14 +308,35 @@ div.profile-perfil-buttons{
     flex-direction: column;
     gap: 10px;
 }
-.profile-fifth-info{
+.profile-fifth-info-all h3{
+    font-size: 0.875rem;
+}
+.profile-fifth-info-top, .profile-fifth-info-bottom{
     display: flex;
     gap: 10px;
+}
+.profile-fifth-info-top p, .profile-fifth-info-bottom span{
+    font-size: 0.625rem;
+    line-height: 15px;
+    font-weight: 500;
+    
+}
+.profile-fifth-info-top span, .profile-fifth-info-bottom p{
+    font-size: 0.625rem;
+    line-height: 15px;
+    font-weight: 400;
+}
+.profile-fifth-info-bottom span{
+    font-size: 0.625rem;
+    line-height: 15px;
+    font-weight: 600;
+    color: var(--text-secondary-color);
 }
 .profile-fifth-info-text{
     font-size: 0.625rem;
     font-weight: 600;
 }
+
 
 /* ==== ==== PROFILE SIXTH SECTION ==== ==== */
 
@@ -227,6 +348,10 @@ div.profile-perfil-buttons{
     border-radius: 4px;
     box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
     gap: 30px;
+}
+.profile-sixth-section h2{
+    font-size: 1.125rem;
+    font-weight: 700;
 }
 /*PROFILE CARDS */
 .profile-sixth-card{
@@ -240,13 +365,31 @@ div.profile-perfil-buttons{
 .profile-sixth-info-all{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
+}
+.profile-sixth-info-all h3{
+    font-size: 0.875rem;
 }
 .profile-sixth-info{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+.profile-sixth-info p{
+    font-size: 0.625rem;
+    font-weight: 500;
+}
+.profile-sixth-info span{
+    font-size: 0.625rem;
+    line-height: 15px;
+    font-weight: 400;
+}
+.profile-sixth-info-text p{
+    font-size: 0.625rem;
+    line-height: 15px;
+    font-weight: 600;
+}
+
 
 
 /* ==== ==== PROFILE FIRST ASIDE ==== ==== */
@@ -266,6 +409,30 @@ div.profile-perfil-buttons{
     padding-bottom: 20px;
     border-bottom: 1px solid #F4F4F4;
 }
+.profile-first-aside-title p{
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+.profile-first-aside-title span{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-secondary-color);
+    text-decoration: underline;
+}
+.profile-first-aside-cards-all{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.profile-first-aside-cards-all div h2{
+    font-size: 3.25rem;
+    font-weight: 600;
+    color: var(--text-secondary-color);
+}
+.profile-first-aside-cards-all div p{
+    font-size: 0.875rem;
+    font-weight: 500;
+}
 
 /* ==== ==== PROFILE SECOND ASIDE ==== ==== */
 
@@ -284,6 +451,15 @@ div.profile-perfil-buttons{
     padding-bottom: 20px;
     border-bottom: 1px solid #F4F4F4;
 }
+.profile-second-aside-title p{
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+.profile-second-aside-title span{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-secondary-color);
+}
 .profile-second-aside-cards-all{
     display: flex;
     flex-direction: column;
@@ -292,6 +468,14 @@ div.profile-perfil-buttons{
 .profile-second-aside-card{
     display: flex;
     gap: 15px;
+}
+.profile-second-aside-card div p{
+   font-size: 0.875rem;
+   font-weight: 700;
+}
+.profile-second-aside-card div span{
+    font-size: 0.625rem;
+    font-weight: 500;
 }
 
 
@@ -306,11 +490,20 @@ div.profile-perfil-buttons{
     padding: 25px 30px 30px;
     gap: 20px;
 }
+.profile-third-aside div a{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #0275B1;
+}
 .profile-third-aside-title{
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
     border-bottom: 1px solid #F4F4F4;
+}
+.profile-third-aside-title p{
+    font-size: 0.75rem;
+    font-weight: 700;
 }
 .profile-third-aside-cards-all{
     display: flex;
@@ -321,3 +514,14 @@ div.profile-perfil-buttons{
     display: flex;
     gap: 15px;
 }
+.profile-third-aside-card div p{
+    font-size: 0.875rem;
+    font-weight: 700;
+ }
+ .profile-third-aside-card div span{
+     font-size: 0.625rem;
+     font-weight: 500;
+ }
+
+/*=== === === BUTTON === === === */
+

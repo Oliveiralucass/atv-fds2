@@ -66,7 +66,10 @@ header{
     font-size: 12px;
     font-weight: 600;
 }
-
+.header-count{
+    position: absolute;
+    margin: -5px 0 0 -10px ;
+}
 /* HEADER SEARCH */
 
 .header-search{
