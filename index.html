@@ -85,10 +85,10 @@
             </div>
         </div>
     </header>
-
-    <!-- MAIN -->    
+    
     <div class="index-container">
 
+        <!-- MAIN --> 
         <main class="index-main-container">
             
             <div class="new-post-container">
@@ -104,10 +104,10 @@
                     <input type="text" placeholder="What's on your mind?">
 
                     <div class="new-post-icons">
-                        <img src="./assets/paperclip.svg" alt="Adicionar anexo" title="Adicionar anexo">
-                        <img src="./assets/image.svg" alt="Adicionar imagem" title="Adicionar imagem">
-                        <img src="./assets/film.svg" alt="Adicionar vídeo" title="Adicionar vídeo">
-                        <img src="./assets/send-icon.svg" alt="Enviar postagem" title="Enviar postagem">
+                        <img src="./assets/paperclip.svg" alt="Adicionar anexo" title="Attach file">
+                        <img src="./assets/image.svg" alt="Adicionar imagem" title="Add image">
+                        <img src="./assets/film.svg" alt="Adicionar vídeo" title="Add video">
+                        <img src="./assets/send-icon.svg" alt="Enviar postagem" title="Publish">
                     </div>
 
                 </div>
@@ -131,94 +131,286 @@
 
             </div>
 
-            <article class="post-container">
+            <section class="feed-posts-container">
 
-                <div class="post-reaction-status">
-                    <p>
-                        <span>Ted Bell</span>, <span>Nguyen</span> and <span>Cody Hawkins</span> liked this
-                    </p>
-                    <i>
-                        <img src="./assets/more-horizontal.svg" alt="Três bolinhas simbolizando mais" title="Mais opções">
-                    </i>
-                </div>
+                <article class="post-container">
 
-                <hr />
-
-                <div class="post-content">
-                    
-                    <div class="post-mini-user">
-                        <img src="./assets/feed-user-1.png" alt="Foto do usuário">
-                        <div class="post-mini-user-info">
-                            <p class="name">Theresa Steward</p>
-                            <p class="title">iOS developer</p>
-                        </div>
-                    </div>
-    
-                    <div class="post-text post-1">
+                    <div class="post-reaction-status">
                         <p>
-                            What did the Dursleys care if Harry lost his place on the House Quidditch team because he hadn't practiced all summer? What was it to the Dursleys if Harry went back to school without any of his homework done? The Dursleys were what wizards called Muggles (not a drop of magical blood in their veins).
+                            <span>Ted Bell</span>, <span>Nguyen</span> and <span>Cody Hawkins</span> liked this
                         </p>
+                        <i>
+                            <img src="./assets/more-horizontal.svg" alt="Três bolinhas simbolizando mais" title="More options">
+                        </i>
                     </div>
-    
-                    <a class="post-read-more" href="#">
-                        Read more
-                    </a>
-                    
-                </div>
 
+                    <hr />
 
-                <hr />
+                    <div class="post-content">
+                        
+                        <div class="post-mini-user">
+                            <img src="./assets/feed-user-1.png" alt="Foto do usuário">
+                            <div class="post-mini-user-info">
+                                <p class="name">Theresa Steward</p>
+                                <p class="title">iOS developer</p>
+                            </div>
+                        </div>
 
-                <div class="post-reactions">
+                        <div class="post-text post-1">
+                            <p>
+                                What did the Dursleys care if Harry lost his place on the House Quidditch team because he hadn't practiced all summer? What was it to the Dursleys if Harry went back to school without any of his homework done? The Dursleys were what wizards called Muggles (not a drop of magical blood in their veins).
+                            </p>
+                        </div>
 
-                    <div class="like-comment">
-                        <div class="like" title="Curtir">
+                        <a class="post-read-more" href="#">
+                            Read more
+                        </a>
+                        
+                    </div>
+
+                    <hr />
+
+                    <div class="post-reactions">
+
+                        <div class="like-comment">
+                            <div class="like" title="Like">
+                                <span>
+                                    <img src="./assets/thumbs-up-fill.svg" alt="Curtidas">
+                                    42
+                                </span>
+                            </div>
+                            <div class="comment" title="Comments">
+                                <span>
+                                    <img src="./assets/message-circle-fill.svg" alt="Comentários">
+                                    9
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="share" title="Share">
                             <span>
-                                <img src="./assets/thumbs-up-fill.svg" alt="Curtidas">
-                                42
+                                <img src="./assets/share-2.svg" alt="Compartilhar">
+                                Share
                             </span>
                         </div>
-                        <div class="comment" title="Comentários">
+
+                    </div>
+
+                </article>
+
+                <article class="post-container">
+
+                    <div class="post-reaction-status">
+                        <p>
+                            <span>Audrey Alexander</span> comment this
+                        </p>
+                        <i>
+                            <img src="./assets/more-horizontal.svg" alt="Três bolinhas simbolizando mais" title="More options">
+                        </i>
+                    </div>
+
+                    <hr />
+
+                    <div class="post-content">
+                        
+                        <div class="post-mini-user">
+                            <img src="./assets/feed-user-2.png" alt="Foto do usuário">
+                            <div class="post-mini-user-info">
+                                <p class="name">Kyle Fisher</p>
+                                <p class="title">Product designer at Commandor Corp.</p>
+                            </div>
+                        </div>
+
+                        <div class="post-text post-2">
+                            <p>
+                                How's your day going, guys?
+                            </p>
+                            <img src="./assets/feed-img-post.png" alt="Imagem postada pelo usuário">
+                        </div>
+                        
+                    </div>
+
+                    <hr />
+
+                    <div class="post-reactions">
+
+                        <div class="like-comment">
+                            <div class="like" title="Remove like">
+                                <span>
+                                    <img src="./assets/thumbs-up.svg" alt="Curtidas">
+                                    12
+                                </span>
+                            </div>
+                            <div class="comment" title="Comments">
+                                <span>
+                                    <img src="./assets/message-circle-fill.svg" alt="Comentários">
+                                    3
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="share" title="Share">
                             <span>
-                                <img src="./assets/message-circle-fill.svg" alt="Comentários">
-                                9
+                                <img src="./assets/share-2.svg" alt="Compartilhar">
+                                Share
                             </span>
                         </div>
+
                     </div>
 
-                    <div class="share" title="Compartilhar">
-                        <span>
-                            <img src="./assets/share-2.svg" alt="Compartilhar">
-                            Share
-                        </span>
+                </article>
+
+                <article class="post-container">
+
+                    <div class="post-reaction-status">
+                        <p>
+                            High rated post from your feed
+                        </p>
+                        <i>
+                            <img src="./assets/more-horizontal.svg" alt="Três bolinhas simbolizando mais" title="More options">
+                        </i>
                     </div>
 
-                </div>
+                    <hr />
 
-            </article>
+                    <div class="post-content">
+                        
+                        <div class="post-mini-user">
+                            <img src="./assets/feed-user-3.png" alt="Foto do usuário">
+                            <div class="post-mini-user-info">
+                                <p class="name">Brandon Wilson</p>
+                                <p class="title">Senior UX designer</p>
+                            </div>
+                        </div>
 
+                        <div class="post-text post-3">
+                            <p>
+                                There is some new guidelines for iOS
+                            </p>
+                            
+                            <div class="post-files" title="Download file">
+                                    <div class="file-text">
+                                    <img src="./assets/paper.svg" alt="">
+                                        <div>
+                                            <p>iOS 11 guidelines for UX/UI designers</p>
+                                            <span>PDF file, 324 kb</span>
+                                        </div>
+                                    </div>
+                                    <i><img src="./assets/download-cloud.svg" alt=""></i>
+                            </div>
 
+                            <div class="post-files" title="Download file">
+                                <div class="file-text">
+                                <img src="./assets/paper.svg" alt="">
+                                    <div>
+                                        <p>iOS 11 guidelines for developers</p>
+                                        <span>PDF file, 245 kb</span>
+                                    </div>
+                                </div>
+                                <i><img src="./assets/download-cloud.svg" alt=""></i>
+                            </div>
 
+                        </div>
+                        
+                    </div>
 
+                    <hr />
 
+                    <div class="post-reactions">
 
+                        <div class="like-comment">
+                            <div class="like" title="Remove like">
+                                <span>
+                                    <img src="./assets/thumbs-up.svg" alt="Curtidas">
+                                    89
+                                </span>
+                            </div>
+                            <div class="comment" title="Comments">
+                                <span>
+                                    <img src="./assets/message-circle.svg" alt="Comentários">
+                                    7
+                                </span>
+                            </div>
+                        </div>
 
+                        <div class="share" title="Share">
+                            <span>
+                                <img src="./assets/share-2.svg" alt="Compartilhar">
+                                Share
+                            </span>
+                        </div>
 
+                    </div>
 
+                </article>
 
+                <article class="post-container">
 
+                    <div class="post-reaction-status">
+                        <p>
+                            First post from <span>Audrey Alexander</span>
+                        </p>
+                        <i>
+                            <img src="./assets/more-horizontal.svg" alt="Três bolinhas simbolizando mais" title="More options">
+                        </i>
+                    </div>
 
+                    <hr />
 
-        
-        
-        
-        
-        
-        
-        
-        
+                    <div class="post-content">
+                        
+                        <div class="post-mini-user">
+                            <img src="./assets/feed-user-4.png" alt="Foto do usuário">
+                            <div class="post-mini-user-info">
+                                <p class="name">Audrey Alexander</p>
+                                <p class="title">Team lead at Google</p>
+                            </div>
+                        </div>
+
+                        <div class="post-text post-3">
+                            <p>
+                                The bun runs along the road and meets a wolf. «Little bun, little bun, I want to eat you!» says the wolf. «I ran away from Grandfather, I ran away from Grandmother, I ran away from the hare. And I can run away from you, grey wolf!» says the bun and runs away.
+                            </p>
+
+                        </div>
+                        
+                    </div>
+
+                    <hr />
+
+                    <div class="post-reactions">
+
+                        <div class="like-comment">
+                            <div class="like" title="Like">
+                                <span>
+                                    <img src="./assets/thumbs-up-fill.svg" alt="Curtidas">
+                                    10
+                                </span>
+                            </div>
+                            <div class="comment" title="Comments">
+                                <span>
+                                    <img src="./assets/message-circle-fill.svg" alt="Comentários">
+                                    0
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="share" title="Share">
+                            <span>
+                                <img src="./assets/share-2.svg" alt="Compartilhar">
+                                Share
+                            </span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </section>
+
         </main>
 
+        <!-- ASIDE -->
         <aside class="index-aside-container">
             <p>teste</p>
         </aside>
@@ -267,11 +459,11 @@
                 <p class="footer-buttons-title">
                     Fast access
                 </p>
-                <button class="footer-btn-1">
+                <button class="footer-btn-1" title="Visit the FAQ">
                     Questions?
                     <img src="./assets/help-circle.svg" alt="Interrogação">
                 </button>
-                <button class="footer-btn-2">
+                <button class="footer-btn-2" title="Go to your account's configurations">
                     Settings
                     <img src="./assets/settings.svg" alt="Engrenagem de configuração">
                 </button>

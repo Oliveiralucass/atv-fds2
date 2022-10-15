@@ -63,7 +63,7 @@
 }
 .new-post-content input::placeholder {
     font-size: 1.125rem;
-    font-weight: 400;
+    color: #18181833;
 }
 .new-post-icons {
     display: flex;
@@ -116,6 +116,7 @@
     flex-direction: column;
     background-color: white;
     border-radius: 4px;
+    margin-bottom: 20px;
 }
 .post-reaction-status {
     display: flex;
@@ -153,9 +154,9 @@
     cursor: pointer;
 }
 .post-text {
-    font-size: 0.90rem;
+    font-size: 0.85rem;
+    font-weight: 500;
     line-height: 150%;
-    margin-bottom: 15px;
 }
 .post-content a {
     color: var(--text-secondary-color);
@@ -165,6 +166,10 @@
 }
 .post-content a:hover {
     color: var(--link-hover-color);
+}
+.post-read-more {
+    display: inline-block;
+    padding-top: 15px;
 }
 .post-reactions {
     display: flex;
@@ -205,6 +210,7 @@
 }
 
 
+
 /* POST 1 */
 .post-1 {
     background: linear-gradient(180deg, #181818 0%, rgba(24, 24, 24, 0) 100%);
@@ -213,6 +219,56 @@
     background-clip: text;
 }
 
+
+/* POST 2 */
+.post-2  img {
+    width: 100%;    
+    padding-top: 15px;
+}
+
+
+/* POST 3 */
+.post-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.post-files {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--detail-color);
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.post-files i {
+    transition: 0.5s;
+}
+.post-files:hover i {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.file-text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.file-text p {
+    font-size: 0.90rem;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.file-text span {
+    color: var(--text-primary-color);
+    font-size: 0.70rem;
+    cursor: default;
+}
+.file-text span:hover {
+    color: var(--text-primary-color);
+}
 
 
 
