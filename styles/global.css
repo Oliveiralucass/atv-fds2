@@ -104,6 +104,11 @@ header{
     border: none;
     min-width: 50px;
     background-color: inherit;
+    
+}
+.header-search input::placeholder {
+    font-size: 1.1rem;
+    color: #18181833;
 }
 
 /* HEADER PROFILE */
