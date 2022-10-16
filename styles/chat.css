@@ -1,27 +1,27 @@
 @import url(../styles/global.css);
 
 
-/* ==== ==== NETWORK PAGE ==== ==== */
-.network-container {
+/* ==== ==== CHAT PAGE ==== ==== */
+.chat-container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     gap: 5%;
 }
-.network-container hr {
+.chat-container hr {
     opacity: 0.15;
 }
-.network-container span {
+.chat-container span {
     color: var(--text-secondary-color);
     cursor: pointer;
 }
-.network-container span:hover {
+.chat-container span:hover {
     color: var(--link-hover-color);
 }
-.active-border-network {
+.active-border-chat {
     position: absolute;
     width: 73px;
-    margin-left: -2px;
+    margin-left: -18px;
     margin-top: 14px;
     border-bottom: 2px solid var(--text-secondary-color);
     cursor: default;
@@ -30,7 +30,7 @@
 
 
 /* ---- ---- MAIN ---- ---- */
-.network-main-container {
+.chat-main-container {
     width: 70%;
 }
 
@@ -54,16 +54,16 @@
 .card-title-2 span {
     color: var(--text-primary-color);
 }
-.network-main-container .chat-hr {
+.chat-main-container .chat-hr {
     width: 840px;
     align-self: center;
     padding-bottom: 0;
     margin-bottom: 0;
 }
-.network-main-container input {
+.chat-main-container input {
     background-color: transparent;
 }
-.network-main-container .new-post-content {
+.chat-main-container .new-post-content {
     margin-top: 10px;
 }
 .sort-container.chat p {
@@ -168,7 +168,7 @@
 
 
 /* ---- ---- ASIDE ---- ---- */
-.network-aside-container {
+.chat-aside-container {
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -177,7 +177,7 @@
 
 
 /* CHAT LIST */
-.network-aside-container .card-container hr {
+.chat-aside-container .card-container hr {
     width: 300px;
     align-self: center;
     margin: 10px 0 10px;
