@@ -14,46 +14,47 @@
     <header>
         <div class="header-container">
             <div>
-                <i><img src="./assets/logo-header.svg" alt="Logo LinkedIn"></i>
+                <a href="./index.html"><i><img class="header-logo" src="./assets/logo-header.svg" alt="Logo LinkedIn"></i></a>
             </div>
 
             <div class="header-nav">
                 <nav>
                     <ul>
                         <li>
-                            <div>
-                                <i><img src="./assets/wifi-svg.svg" alt=""></i>
-                                <p>FEED</p>
+                            <div class="feed-active"><a href="./index.html">
+                                <i><img src="./assets/wifi-active.svg" alt=""></i>
+                                <p>FEED</p></a>
+                                <hr class="active-border-feed" />
                             </div>
                         </li>
 
                         <li>
-                            <div>
+                            <div><a href="./network.html">
                                 <i><img src="./assets/network-svg.svg" alt=""></i>
-                                <p>NETWORK</p>
+                                <p>NETWORK</p></a>
                             </div>
                         </li>
 
                         <li>
-                            <div>
+                            <div><a href="./jobs.html">
                                 <i><img src="./assets/jobs-svg.svg" alt=""></i>
-                                <p>JOBS</p>
+                                <p>JOBS</p></a>
                             </div>
                         </li>
 
                         <li>
-                            <div>
+                            <div><a href="#">
                                 <i><img src="./assets/chat-svg.svg" alt="">
                                     <img class="header-count" src="./assets/profile-count.svg" alt="">
                                 </i>
-                                <p>CHAT</p>
+                                <p>CHAT</p></a>
                             </div>
                         </li>
 
                         <li>
-                            <div>
+                            <div><a href="#">
                                 <i><img src="./assets/notices-svg.svg" alt=""></i>
-                                <p>NOTICES</p>
+                                <p>NOTICES</p></a>
                             </div>
                         </li>
                     </ul>
@@ -417,22 +418,24 @@
             
             <div class="profile-preview-container">
 
-                <div class="banner">
-                    <img src="./assets/preview-profile-banner.png" alt="">
-                </div>
-
-                <div class="user-info">
-                    <img src="./assets/preview-profile-photo.png" alt="">
-                    <div class="profile-info">
-                        <div class="name">
-                            <p>Dmitry Kargaev</p>
-                            <i><img src="./assets/linkedin-premium.svg" alt="LinkedIn Premium"></i>
-                        </div>
-                        <p class="description">
-                            Freelance UX/UI designer, 80+ projects in web design, mobile apps (iOS & android) and creative projects. Open to offers.
-                        </p>
+                <a href="./profile-page.html">
+                    <div class="banner">
+                        <img src="./assets/preview-profile-banner.png" alt="">
                     </div>
-                </div>
+
+                    <div class="user-info">
+                        <img src="./assets/preview-profile-photo.png" alt="">
+                        <div class="profile-info">
+                            <div class="name">
+                                <p>Dmitry Kargaev</p>
+                                <i><img src="./assets/linkedin-premium.svg" alt="LinkedIn Premium"></i>
+                            </div>
+                            <p class="description">
+                                Freelance UX/UI designer, 80+ projects in web design, mobile apps (iOS & android) and creative projects. Open to offers.
+                            </p>
+                        </div>
+                    </div>
+                </a>
 
             </div>
 
@@ -446,7 +449,7 @@
             </div>
 
             <!-- MY GROUPS -->
-            <div class="card-container my-groups-bg">
+            <div class="card-container">
 
                 <div class="card-title">
                     <p>My groups</p>
