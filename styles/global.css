@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url(../styles/profile-page.css);
 @import url(../styles/index.css);
+@import url(../styles/chat.css);
 @import url(../styles/job.css);
 
 :root {
     --background-color: #F7F9FB;
     --text-primary-color: #181818;
     --text-secondary-color: #0275B1;
+    --link-hover-color: rgb(2, 117, 177, 0.6);
     --detail-color: #E9F0F8;
+    --detail-hover-color: #f1f4f7;
 }
 
 *{
@@ -50,6 +53,9 @@ header{
     justify-content: space-around;
     padding: 10px 0;
 }
+.header-logo{
+    cursor: pointer;
+}
 .header-image, .header-nav, .header-search, .header-profile, .header-more{
     padding: 0 20px;
     border-right: 1px solid #F4F4F4;
@@ -66,6 +72,26 @@ header{
     text-align: center;
     font-size: 12px;
     font-weight: 600;
+    cursor: pointer;
+}
+.header-nav a {
+    color: var(--text-primary-color);
+}
+.header-nav p {
+    padding-top: 5px;
+}
+.header-count{
+    position: absolute;
+    margin: -5px 0 0 -10px ;
+}
+.feed-active {
+    color: var(--text-secondary-color);
+}
+.feed-active a {
+    color: var(--text-secondary-color);
+}
+.feed-active a:hover {
+    color: var(--link-hover-color);
 }
 .header-count{
     position: absolute;
@@ -82,6 +108,11 @@ header{
     border: none;
     min-width: 50px;
     background-color: inherit;
+    
+}
+.header-search input::placeholder {
+    font-size: 1.1rem;
+    color: #18181833;
 }
 
 /* HEADER PROFILE */
@@ -126,11 +157,14 @@ header{
     gap: 5px;
     font-size: 12px;
     font-weight: 600;
+    cursor: pointer;
+    padding-bottom: 10px;
 }
 .header-more span{
     font-size: 2rem;
     line-height: 0.875;
 }
+
 
 /* ---- ---- FOOTER ---- ---- */
 .index-container {

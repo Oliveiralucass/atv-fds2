@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+    <title>Linkedin - Feed</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+            <div>
+                <a href="./index.html"><i><img class="header-logo" src="./assets/logo-header.svg" alt="Logo LinkedIn"></i></a>
+            </div>
+
+            <div class="header-nav">
+                <nav>
+                    <ul>
+                        <li>
+                            <div class="feed-active"><a href="./index.html">
+                                <i><img src="./assets/wifi-active.svg" alt=""></i>
+                                <p>FEED</p></a>
+                                <hr class="active-border-feed" />
+                            </div>
+                        </li>
+
+                        <li>
+                            <div><a href="#">
+                                <i><img src="./assets/network-svg.svg" alt=""></i>
+                                <p>NETWORK</p></a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div><a href="./jobs.html">
+                                <i><img src="./assets/jobs-svg.svg" alt=""></i>
+                                <p>JOBS</p></a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div><a href="./chat.html">
+                                <i><img src="./assets/chat-svg.svg" alt="">
+                                    <img class="header-count" src="./assets/profile-count.svg" alt="">
+                                </i>
+                                <p>CHAT</p></a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div><a href="#">
+                                <i><img src="./assets/notices-svg.svg" alt=""></i>
+                                <p>NOTICES</p></a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header-search">
+                <i><img src="./assets/search-svg.svg" alt=""></i>
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="header-profile">
+                <div><img src="./assets/profile-pic.png" alt=""></div>
+
+                <div class="header-profile-content">
+                    <div>
+                        <p>D. KARGAEV</p>
+                        <span>YOU</span>
+                    </div>
+
+                    <div>
+                        <p>367 view today</p>
+                        <span>+32 <img src="./assets/vector-svg.svg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-more">
+                <span>...</span>
+                <p>OTHER</p>
+            </div>
+        </div>
+    </header>
+    
+    <div class="index-container">
+
+        <!-- FEED --> 
+        <main class="index-main-container">
+            
+            <div class="new-post-container">
+
+                <p class="new-post-title">
+                    New post
+                </p>
+
+                <hr />
+
+                <div class="new-post-content">
+
+                    <input type="text" placeholder="What's on your mind?">
+
+                    <div class="new-post-icons">
+                        <img src="./assets/paperclip.svg" alt="Adicionar anexo" title="Attach file">
+                        <img src="./assets/image.svg" alt="Adicionar imagem" title="Add image">
+                        <img src="./assets/film.svg" alt="Adicionar vídeo" title="Add video">
+                        <img src="./assets/send-icon.svg" alt="Enviar postagem" title="Publish">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="sort-container">
+
+                <hr />
+
+                <p>
+                     Sort by: 
+                     <select name="sort-by" id="">
+                        <option value="Trending">Trending</option>
+                        <option value="Newest">Newest</option>
+                        <option value="Oldest">Oldest</option>
+                     </select>
+                </p>
+
+                <hr />
+
+            </div>
+
+            <section class="feed-posts-container">
+
+                <article class="post-container">
+
+                    <div class="post-reaction-status">
+                        <p>
+                            <span>Ted Bell</span>, <span>Nguyen</span> and <span>Cody Hawkins</span> liked this
+                        </p>
+                        <i>
+                            <img src="./assets/more-horizontal.svg" alt="Três bolinhas simbolizando mais" title="More options">
+                        </i>
+                    </div>
+
+                    <hr />
+
+                    <div class="post-content">
+                        
+                        <div class="post-mini-user">
+                            <img src="./assets/feed-user-1.png" alt="Foto do usuário">
+                            <div class="post-mini-user-info">
+                                <p class="name">Theresa Steward</p>
+                                <p class="title">iOS developer</p>
+                            </div>
+                        </div>
+
+                        <div class="post-text post-1">
+                            <p>
+                                What did the Dursleys care if Harry lost his place on the House Quidditch team because he hadn't practiced all summer? What was it to the Dursleys if Harry went back to school without any of his homework done? The Dursleys were what wizards called Muggles (not a drop of magical blood in their veins).
+                            </p>
+                        </div>
+
+                        <a class="post-read-more" href="#">
+                            Read more
+                        </a>
+                        
+                    </div>
+
+                    <hr />
+
+                    <div class="post-reactions">
+
+                        <div class="like-comment">
+                            <div class="like" title="Like">
+                                <span>
+                                    <img src="./assets/thumbs-up-fill.svg" alt="Curtidas">
+                                    42
+                                </span>
+                            </div>
+                            <div class="comment" title="Comments">
+                                <span>
+                                    <img src="./assets/message-circle-fill.svg" alt="Comentários">
+                                    9
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="share" title="Share">
+                            <span>
+                                <img src="./assets/share-2.svg" alt="Compartilhar">
+                                Share
+                            </span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <article class="post-container">
+
+                    <div class="post-reaction-status">
+                        <p>
+                            <span>Audrey Alexander</span> comment this
+                        </p>
+                        <i>
+                            <img src="./assets/more-horizontal.svg" alt="Três bolinhas simbolizando mais" title="More options">
+                        </i>
+                    </div>
+
+                    <hr />
+
+                    <div class="post-content">
+                        
+                        <div class="post-mini-user">
+                            <img src="./assets/feed-user-2.png" alt="Foto do usuário">
+                            <div class="post-mini-user-info">
+                                <p class="name">Kyle Fisher</p>
+                                <p class="title">Product designer at Commandor Corp.</p>
+                            </div>
+                        </div>
+
+                        <div class="post-text post-2">
+                            <p>
+                                How's your day going, guys?
+                            </p>
+                            <img src="./assets/feed-img-post.png" alt="Imagem postada pelo usuário">
+                        </div>
+                        
+                    </div>
+
+                    <hr />
+
+                    <div class="post-reactions">
+
+                        <div class="like-comment">
+                            <div class="like" title="Remove like">
+                                <span>
+                                    <img src="./assets/thumbs-up.svg" alt="Curtidas">
+                                    12
+                                </span>
+                            </div>
+                            <div class="comment" title="Comments">
+                                <span>
+                                    <img src="./assets/message-circle-fill.svg" alt="Comentários">
+                                    3
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="share" title="Share">
+                            <span>
+                                <img src="./assets/share-2.svg" alt="Compartilhar">
+                                Share
+                            </span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <article class="post-container">
+
+                    <div class="post-reaction-status">
+                        <p>
+                            High rated post from your feed
+                        </p>
+                        <i>
+                            <img src="./assets/more-horizontal.svg" alt="Três bolinhas simbolizando mais" title="More options">
+                        </i>
+                    </div>
+
+                    <hr />
+
+                    <div class="post-content">
+                        
+                        <div class="post-mini-user">
+                            <img src="./assets/feed-user-3.png" alt="Foto do usuário">
+                            <div class="post-mini-user-info">
+                                <p class="name">Brandon Wilson</p>
+                                <p class="title">Senior UX designer</p>
+                            </div>
+                        </div>
+
+                        <div class="post-text post-3">
+                            <p>
+                                There is some new guidelines for iOS
+                            </p>
+                            
+                            <div class="post-files" title="Download file">
+                                    <div class="file-text">
+                                    <img src="./assets/paper.svg" alt="">
+                                        <div>
+                                            <p>iOS 11 guidelines for UX/UI designers</p>
+                                            <span>PDF file, 324 kb</span>
+                                        </div>
+                                    </div>
+                                    <i><img src="./assets/download-cloud.svg" alt=""></i>
+                            </div>
+
+                            <div class="post-files" title="Download file">
+                                <div class="file-text">
+                                <img src="./assets/paper.svg" alt="">
+                                    <div>
+                                        <p>iOS 11 guidelines for developers</p>
+                                        <span>PDF file, 245 kb</span>
+                                    </div>
+                                </div>
+                                <i><img src="./assets/download-cloud.svg" alt=""></i>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <hr />
+
+                    <div class="post-reactions">
+
+                        <div class="like-comment">
+                            <div class="like" title="Remove like">
+                                <span>
+                                    <img src="./assets/thumbs-up.svg" alt="Curtidas">
+                                    89
+                                </span>
+                            </div>
+                            <div class="comment" title="Comments">
+                                <span>
+                                    <img src="./assets/message-circle.svg" alt="Comentários">
+                                    7
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="share" title="Share">
+                            <span>
+                                <img src="./assets/share-2.svg" alt="Compartilhar">
+                                Share
+                            </span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <article class="post-container">
+
+                    <div class="post-reaction-status">
+                        <p>
+                            First post from <span>Audrey Alexander</span>
+                        </p>
+                        <i>
+                            <img src="./assets/more-horizontal.svg" alt="Três bolinhas simbolizando mais" title="More options">
+                        </i>
+                    </div>
+
+                    <hr />
+
+                    <div class="post-content">
+                        
+                        <div class="post-mini-user">
+                            <img src="./assets/feed-user-4.png" alt="Foto do usuário">
+                            <div class="post-mini-user-info">
+                                <p class="name">Audrey Alexander</p>
+                                <p class="title">Team lead at Google</p>
+                            </div>
+                        </div>
+
+                        <div class="post-text post-3">
+                            <p>
+                                The bun runs along the road and meets a wolf. «Little bun, little bun, I want to eat you!» says the wolf. «I ran away from Grandfather, I ran away from Grandmother, I ran away from the hare. And I can run away from you, grey wolf!» says the bun and runs away.
+                            </p>
+
+                        </div>
+                        
+                    </div>
+
+                    <hr />
+
+                    <div class="post-reactions">
+
+                        <div class="like-comment">
+                            <div class="like" title="Like">
+                                <span>
+                                    <img src="./assets/thumbs-up-fill.svg" alt="Curtidas">
+                                    10
+                                </span>
+                            </div>
+                            <div class="comment" title="Comments">
+                                <span>
+                                    <img src="./assets/message-circle-fill.svg" alt="Comentários">
+                                    0
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="share" title="Share">
+                            <span>
+                                <img src="./assets/share-2.svg" alt="Compartilhar">
+                                Share
+                            </span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </section>
+
+        </main>
+
+        <!-- ASIDE -->
+        <aside class="index-aside-container">
+            
+            <div class="profile-preview-container">
+
+                <a href="./profile-page.html">
+                    <div class="banner">
+                        <img src="./assets/preview-profile-banner.png" alt="">
+                    </div>
+
+                    <div class="user-info">
+                        <img src="./assets/preview-profile-photo.png" alt="">
+                        <div class="profile-info">
+                            <div class="name">
+                                <p>Dmitry Kargaev</p>
+                                <i><img src="./assets/linkedin-premium.svg" alt="LinkedIn Premium"></i>
+                            </div>
+                            <p class="description">
+                                Freelance UX/UI designer, 80+ projects in web design, mobile apps (iOS & android) and creative projects. Open to offers.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- NEW ARTICLE BUTTON -->
+            <div class="card-container new-article-btn">
+
+                <button>
+                    Write new article
+                </button>
+
+            </div>
+
+            <!-- MY GROUPS -->
+            <div class="card-container">
+
+                <div class="card-title">
+                    <p>My groups</p>
+                    <span>Edit list</span>
+                </div>
+
+                <hr />
+
+                <div class="group-card">
+                    <img src="./assets/moscow.png" alt="Imagem do grupo">
+                    <p>Moscow State Linguistical University</p>
+                </div>
+
+                <div class="group-card">
+                    <img src="./assets/digital.png" alt="Imagem do grupo">
+                    <p>Digital freelancers group</p>
+                </div>
+
+                <div class="group-card">
+                    <img src="./assets/interaction.png" alt="Imagem do grupo">
+                    <p>Interaction design association</p>
+                </div>
+
+                <span class="show-all-span">Show all (8)</span>
+
+            </div>
+
+            <!-- FOLLOWED HASHTAGS -->
+            <div class="card-container">
+
+                <div class="card-title">
+                    <p>Followed Hashtags</p>
+                </div>
+
+                <hr />
+
+                <div class="hashtag-container">
+
+                    <div class="hashtag-box">
+                        <p>
+                            #work
+                        </p>
+                    </div>
+
+                    <div class="hashtag-box">
+                        <p>
+                            #business
+                        </p>
+                    </div>
+
+                    <div class="hashtag-box">
+                        <p>
+                            #hr
+                        </p>
+                    </div>
+
+                    <div class="hashtag-box">
+                        <p>
+                            #userinterface
+                        </p>
+                    </div>
+
+                    <div class="hashtag-box">
+                        <p>
+                            #digital
+                        </p>
+                    </div>
+
+                    <div class="hashtag-box">
+                        <p>
+                            #userexperience
+                        </p>
+                    </div>
+
+                    <div class="hashtag-box">
+                        <p>
+                            #ux
+                        </p>
+                    </div>
+
+                    <div class="hashtag-box">
+                        <p>
+                            #ui
+                        </p>
+                    </div>
+
+                    <div class="hashtag-box">
+                        <p>
+                            #freelance
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- TRENDING ARTICLES -->
+            <div class="card-container">
+
+                <div class="card-title">
+                    <p>
+                        Trending articles
+                    </p>
+                </div>
+
+                <hr />
+
+                <div class="trending-articles-container">
+
+                    <div class="trending-article-box">
+                        <img src="./assets/article-1.png" alt="Imagem do artigo">
+                        <div>
+                            <p>How I make cool designs?</p>
+                            <span>6,340 viewers</span>
+                        </div>
+                    </div>
+
+                    <div class="trending-article-box">
+                        <img src="./assets/article-2.png" alt="Imagem do artigo">
+                        <div>
+                            <p>Advices for young HR-managers</p>
+                            <span>8,123 viewers</span>
+                        </div>
+                    </div>
+
+                    <div class="trending-article-box">
+                        <img src="./assets/article-3.png" alt="Imagem do artigo">
+                        <div>
+                            <p>A little about usability testing</p>
+                            <span>3,912 viewers</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-container">
+
+        <div class="footer-content">
+
+            <img class="footer-logo" src="./assets/logo.svg" alt="Logo Linkedin">
+            
+            <div class="footer-nav">
+
+                <div class="footer-nav-1">
+                    <p class="footer-nav-title">Navigation</p>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Small Business</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-nav-2">
+                    <ul>
+                        <li><a href="#">Talent Solutions</a></li>
+                        <li><a href="#">Marketing Solutions</a></li>
+                        <li><a href="#">Sales Solutions</a></li>
+                        <li><a href="#">Safety Center</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-nav-3">
+                    <ul>
+                        <li><a href="#">Community Guidelines</a></li>
+                        <li><a href="#">Privacy & Terms</a></li>
+                        <li><a href="#">Mobile App</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="footer-buttons">
+                <p class="footer-buttons-title">
+                    Fast access
+                </p>
+                <button class="footer-btn-1" title="Visit the FAQ">
+                    Questions?
+                    <img src="./assets/help-circle.svg" alt="Interrogação">
+                </button>
+                <button class="footer-btn-2" title="Go to your account's configurations">
+                    Settings
+                    <img src="./assets/settings.svg" alt="Engrenagem de configuração">
+                </button>
+            </div>
+
+            <div class="footer-lang">
+                <p class="footer-lang-title">
+                    Language
+                </p>
+                <select name="language" id="">
+                    <option value="pt-br">Português (Brasil)</option>
+                    <option value="en-us" selected>English (US)</option>
+                    <option value="es-es">Español</option>
+                    <option value="fr-fr">Français (France)</option>
+                    <option value="it-it">Italiano</option>
+                    <option value="de-de">Deutsch</option>
+                    <option value="nl-nl">Nederlands</option>
+                    <option value="pl-pl">Polski</option>
+                    <option value="tr-tr">Türkçe</option>
+                    <option value="ru-ru">Русский</option>
+                    <option value="ja-jp">日本語</option>
+                    <option value="ko-kr">한국어</option>
+                    <option value="zh-cn">中文(简体)</option>
+                    <option value="zh-tw">中文(台灣)</option>
+                    <option value="ar-ar">العربية</option>
+                    <option value="hi-in">हिन्दी</option>
+                    <option value="th-th">ภาษาไทย</option>
+                </select>
+            </div>
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>
