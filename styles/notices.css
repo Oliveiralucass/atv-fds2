@@ -23,6 +23,39 @@
 
 /* NOTICES FIRST ASIDE */
 
+/* NOTICES ASIDE NOTIFICATION*/
+
+.notices-aside-notification{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+.notices-aside-notification div{
+    display: flex;
+    gap: 20px;
+}
+.notices-border-blue{
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    margin: -20px;
+    background-color: #0275B1;
+    border-radius: 4px 0px 0px 0px;
+}
+.notices-aside-notification span{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.notices-aside-notification p{
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+
 .notices-first-aside{
     display: flex;
     flex-direction: column;

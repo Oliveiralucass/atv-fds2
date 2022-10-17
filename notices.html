@@ -10,50 +10,50 @@
 <body>
     
     <!-- HEADER -->
-
-    <header>
+     <header>
         <div class="header-container">
-            <div class="header-image">
-                <i><img src="./assets/logo-header.svg" alt="Logo LinkedIn"></i>
+            <div>
+                <a href="./index.html"><i><img class="header-logo" src="./assets/logo-header.svg" alt="Logo LinkedIn"></i></a>
             </div>
 
             <div class="header-nav">
                 <nav>
                     <ul>
                         <li>
-                            <div>
+                            <div><a href="./index.html">
                                 <i><img src="./assets/wifi-svg.svg" alt=""></i>
-                                <p>FEED</p>
+                                <p>FEED</p></a>
                             </div>
                         </li>
 
                         <li>
-                            <div>
+                            <div><a href="#">
                                 <i><img src="./assets/network-svg.svg" alt=""></i>
-                                <p>NETWORK</p>
+                                <p>NETWORK</p></a>
                             </div>
                         </li>
 
                         <li>
-                            <div>
+                            <div class="feed-active"><a href="./jobs.html">
                                 <i><img src="./assets/jobs-svg.svg" alt=""></i>
-                                <p>JOBS</p>
+                                <p>JOBS</p></a>
                             </div>
                         </li>
 
                         <li>
-                            <div>
+                            <div><a href="./chat.html">
                                 <i><img src="./assets/chat-svg.svg" alt="">
                                     <img class="header-count" src="./assets/profile-count.svg" alt="">
                                 </i>
-                                <p>CHAT</p>
+                                <p>CHAT</p></a>
                             </div>
                         </li>
 
                         <li>
-                            <div>
-                                <i><img src="./assets/notices-svg.svg" alt=""></i>
-                                <p>NOTICES</p>
+                            <div><a href="#">
+                                <i><img src="./assets/notices-active.svg" alt=""></i>
+                                <p>NOTICES</p></a>
+                                <hr class="active-border-feed" />
                             </div>
                         </li>
                     </ul>
@@ -66,7 +66,7 @@
             </div>
 
             <div class="header-profile">
-                <div><img src="./assets/profile-pic.png" alt=""></div>
+                <a href="./profile-page.html"><img src="./assets/profile-pic.png" alt=""></a>
 
                 <div class="header-profile-content">
                     <div>
@@ -88,11 +88,18 @@
         </div>
     </header>
 
+
     <div class="notices-container">
 
         <aside>
             <section class="notices-aside-notification">
-            
+                <div>
+                    <div class="notices-border-blue"></div>
+                    <span>NOTIFICATION</span>
+                </div>
+                <div>
+                    <p>NOTIFICATION SETTINGS</p>
+                </div>
             </section>
     
             <section class="notices-first-aside">
@@ -122,7 +129,15 @@
 
         <main>
     
-            <div class="notice-divisor">
+            <div class="sort-container">
+
+                <hr />
+    
+                <p>
+                    jobs for you
+                </p>
+    
+                <hr />
     
             </div>
     
@@ -187,7 +202,15 @@
                 </div>
            
     
-                <div class="notices-divisor">
+                <div class="sort-container">
+
+                    <hr />
+        
+                    <p>
+                        jobs for you
+                    </p>
+        
+                    <hr />
         
                 </div>
     
