@@ -113,7 +113,11 @@ div.profile-perfil-buttons{
     height: 32px;
     font-size: 0.75rem;
     font-weight: 500;
+    cursor: pointer;
 }
+.profile-primary-button:hover {
+    background: linear-gradient(180deg, #078fd9 0%, #0d77ac 100%);
+ }
 
 .profile-secondary-button{
     background-color: #ffffff;
@@ -125,7 +129,15 @@ div.profile-perfil-buttons{
     height: 32px;
     font-size: 0.75rem;
     font-weight: 600;
+    cursor: pointer;
 }
+.profile-secondary-button:hover {
+    background-color: #ebf8ff;
+}
+.edit-profile-btn {
+    cursor: pointer;
+}
+
 
 /* ==== ==== PROFILE SECOND SECTION ==== ==== */
 
@@ -523,5 +535,9 @@ div.profile-perfil-buttons{
      font-weight: 500;
  }
 
-/*=== === === BUTTON === === === */
+.profile-container aside span:hover {
+    cursor: pointer;
+    color: var(--link-hover-color);
+}
 
+/*=== === === BUTTON === === === */
