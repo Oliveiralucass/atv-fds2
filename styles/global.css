@@ -2,6 +2,7 @@
 @import url(../styles/profile-page.css);
 @import url(../styles/index.css);
 @import url(../styles/job.css);
+@import url(../styles/notices.css);
 
 :root {
     --background-color: #F7F9FB;
