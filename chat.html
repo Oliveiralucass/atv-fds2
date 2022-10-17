@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+    <title>Linkedin - Chat</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+            <div>
+                <a href="./index.html"><i><img class="header-logo" src="./assets/logo-header.svg" alt="Logo LinkedIn"></i></a>
+            </div>
+
+            <div class="header-nav">
+                <nav>
+                    <ul>
+                        <li>
+                            <div><a href="./index.html">
+                                <i><img src="./assets/wifi-svg.svg"></i>
+                                <p>FEED</p></a>                               
+                            </div>
+                        </li>
+
+                        <li>
+                            <div><a href="#">
+                                <i><img src="./assets/network-svg.svg" alt=""></i>
+                                <p>NETWORK</p></a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div><a href="./jobs.html">
+                                <i><img src="./assets/jobs-svg.svg" alt=""></i>
+                                <p>JOBS</p></a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="feed-active"><a href="./chat.html">
+                                <i><img src="./assets/chat-active.svg" alt="">
+                                    <img class="header-count" src="./assets/profile-count.svg" alt="">
+                                </i>
+                                <p>CHAT</p></a>
+                                <hr class="active-border-chat" />
+                            </div>
+                        </li>
+
+                        <li>
+                            <div><a href="#">
+                                <i><img src="./assets/notices-svg.svg" alt=""></i>
+                                <p>NOTICES</p></a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header-search">
+                <i><img src="./assets/search-svg.svg" alt=""></i>
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="header-profile">
+                <div><img src="./assets/profile-pic.png" alt=""></div>
+
+                <div class="header-profile-content">
+                    <div>
+                        <p>D. KARGAEV</p>
+                        <span>YOU</span>
+                    </div>
+
+                    <div>
+                        <p>367 view today</p>
+                        <span>+32 <img src="./assets/vector-svg.svg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-more">
+                <span>...</span>
+                <p>OTHER</p>
+            </div>
+        </div>
+    </header>
+    
+    <div class="chat-container">
+
+        <!-- CHAT LIST -->
+        <aside class="chat-aside-container">
+
+            <div class="card-container">
+
+                <div class="card-title">
+                    <p>Chats</p>
+                </div>
+
+                <hr class="chat-hr" />
+
+                <div class="chat-user-box">
+                    <img src="./assets/chat-user-1.png" alt="Foto do perfil do usuário">
+                    <div class="chat-user-info">
+                        <p>Darlene Black</p>
+                        <div class="chat-user-send">
+                            <img src="./assets/preview-profile-photo.png" alt="">
+                            <span>Hey, how is your project?</span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="chat-hr" />
+
+                <div class="chat-user-box">
+                    <img src="./assets/chat-user-2.png" alt="Foto do perfil do usuário">
+                    <div class="chat-user-info new">
+                        <img src="./assets/selected.svg" alt="">
+                        <p>Theresa Steward</p>
+                        <div class="chat-user-send received overflow">
+                            <span>Hi, Dmitry! I have a work for you. W</span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="chat-hr" />
+
+                <div class="chat-user-box">
+                    <img src="./assets/chat-user-3.png" alt="Foto do perfil do usuário">
+                    <div class="chat-user-info">
+                        <p>Brandon Wilson</p>
+                        <div class="chat-user-send received overflow">
+                            <span>I am Russian and I am learning Eng</span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="chat-hr" />
+
+                <div class="chat-user-box">
+                    <div class="chat-selected-border"></div>
+                    <img src="./assets/chat-user-4.png" alt="Foto do perfil do usuário">
+                    <div class="chat-user-info selected">
+                        <p>Kyle Fisher</p>
+                        <div class="chat-user-send">
+                            <span>So, it's up to you!</span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="chat-hr" />
+
+                <div class="chat-user-box">
+                    <img src="./assets/chat-user-5.png" alt="Foto do perfil do usuário">
+                    <div class="chat-user-info">
+                        <p>Audrey Alexander</p>
+                        <div class="chat-user-send">
+                            <img src="./assets/preview-profile-photo.png" alt="">
+                            <span>When you got it?</span>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="chat-hr" />
+
+                <div class="chat-user-box">
+                    <img src="./assets/chat-user-6.png" alt="Foto do perfil do usuário">
+                    <div class="chat-user-info">
+                        <p>Design Conference</p>
+                        <div class="chat-user-send">
+                            <img src="./assets/preview-profile-photo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <!-- NEW CHAT BUTTON -->
+            <div class="card-container new-chat-btn">
+
+                <button>
+                    Start new chat
+                </button>
+
+            </div>
+
+        </aside>
+
+        <!-- CHAT --> 
+        <main class="chat-main-container">
+            
+            <div class="card-container title">
+
+                <div class="card-title chat">
+                    <div class="chat-title">
+                        <p>Chat with <span>Kyle Fisher</span></p>
+                        <div class="chat-title-user">Last online: 4 hours ago</div>
+                    </div>
+                    <span class="card-title-2">
+                        <img src="./assets/paperclip-blue.svg" alt="">
+                        <span>Shared media (12)</span>
+                    </span>
+                </div>
+                
+                <hr class="chat-hr" />
+            
+            </div>
+
+            <div class="card-container overflow">
+                
+                <div class="chat-messages send">
+                    
+                    <div class="chat-msg-send overflow">
+                        <div class="chat-msg-send-text">
+                            <div>
+                                <p class="chat-msg-send-bg overflow">
+                                    Oh, sh#t! This junior designers!!!!!!!!!!!!!!!!
+                                </p>
+                            </div>
+                            <div class="chat-msg-status send">
+                                <span>3:20 PM</span>
+                            </div>
+                        </div>
+                        <img src="./assets/chat-msg-user.png" alt="">
+                    </div>
+                    
+                    <div class="sort-container chat">
+                        
+                        <hr />
+                        
+                        <p>
+                            Yesterday, 29 aug
+                        </p>
+                        
+                        <hr />
+                        
+                    </div>
+
+                    <div class="chat-msg">
+                        <div class="chat-msg-bg">
+                            <p>
+                                Hi, Kyle. How are you doing? Did you get that job yesterday?
+                            </p>
+                        </div>
+                        <div class="chat-msg-status">
+                            <img src="./assets/read.svg" alt="Sinal de mensagem lida">
+                            <span>4:20 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="chat-msg-send">
+                        <div class="chat-msg-send-text">
+                            <div>
+                                <p class="chat-msg-send-bg">
+                                    Nope, they kicked me out of the office!
+                                </p>
+                            </div>
+                            <div class="chat-msg-status send">
+                                <span>4:29 PM</span>
+                            </div>
+                        </div>
+                        <img src="./assets/chat-msg-user.png" alt="">
+                    </div>
+
+                    <div class="chat-msg">
+                        <div class="chat-msg-bg bigger">
+                            <p>
+                                Wow! I can invite you in my new project. We need a product designer right now!
+                            </p>
+                        </div>
+                        <div class="chat-msg-status">
+                            <img src="./assets/read.svg" alt="Sinal de mensagem lida">
+                            <span>4:30 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="chat-msg-send">
+                        <div class="chat-msg-send-text">
+                            <div>
+                                <p class="chat-msg-send-bg second">
+                                    It'll be great! I need this job, but...
+                                </p>
+                            </div>
+                            <div>
+                                <p class="chat-msg-send-bg third">
+                                    So, it's up to you!
+                                </p>
+                            </div>
+                            <div class="chat-msg-status send">
+                                <span>4:35 PM</span>
+                            </div>
+                        </div>
+                        <img src="./assets/chat-msg-user.png" alt="">
+                    </div>
+
+                </div>
+
+                <hr class="chat-hr" />
+
+                <div class="new-post-content">
+
+                    <input type="text" placeholder="Write your message">
+
+                    <div class="new-post-icons">
+                        <img src="./assets/paperclip.svg" alt="Adicionar anexo" title="Attach file">
+                        <img src="./assets/send-icon.svg" alt="Enviar postagem" title="Send message">
+                    </div>
+
+                </div>
+            
+            </div>
+
+        </main>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-container">
+
+        <div class="footer-content">
+
+            <img class="footer-logo" src="./assets/logo.svg" alt="Logo Linkedin">
+            
+            <div class="footer-nav">
+
+                <div class="footer-nav-1">
+                    <p class="footer-nav-title">Navigation</p>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Small Business</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-nav-2">
+                    <ul>
+                        <li><a href="#">Talent Solutions</a></li>
+                        <li><a href="#">Marketing Solutions</a></li>
+                        <li><a href="#">Sales Solutions</a></li>
+                        <li><a href="#">Safety Center</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-nav-3">
+                    <ul>
+                        <li><a href="#">Community Guidelines</a></li>
+                        <li><a href="#">Privacy & Terms</a></li>
+                        <li><a href="#">Mobile App</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="footer-buttons">
+                <p class="footer-buttons-title">
+                    Fast access
+                </p>
+                <button class="footer-btn-1" title="Visit the FAQ">
+                    Questions?
+                    <img src="./assets/help-circle.svg" alt="Interrogação">
+                </button>
+                <button class="footer-btn-2" title="Go to your account's configurations">
+                    Settings
+                    <img src="./assets/settings.svg" alt="Engrenagem de configuração">
+                </button>
+            </div>
+
+            <div class="footer-lang">
+                <p class="footer-lang-title">
+                    Language
+                </p>
+                <select name="language" id="">
+                    <option value="pt-br">Português (Brasil)</option>
+                    <option value="en-us" selected>English (US)</option>
+                    <option value="es-es">Español</option>
+                    <option value="fr-fr">Français (France)</option>
+                    <option value="it-it">Italiano</option>
+                    <option value="de-de">Deutsch</option>
+                    <option value="nl-nl">Nederlands</option>
+                    <option value="pl-pl">Polski</option>
+                    <option value="tr-tr">Türkçe</option>
+                    <option value="ru-ru">Русский</option>
+                    <option value="ja-jp">日本語</option>
+                    <option value="ko-kr">한국어</option>
+                    <option value="zh-cn">中文(简体)</option>
+                    <option value="zh-tw">中文(台灣)</option>
+                    <option value="ar-ar">العربية</option>
+                    <option value="hi-in">हिन्दी</option>
+                    <option value="th-th">ภาษาไทย</option>
+                </select>
+            </div>
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>
