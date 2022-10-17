@@ -147,11 +147,16 @@
 .job-aside-title p{
     font-size: 0.75rem;
     font-weight: 700;
+    user-select: none;
 }
 .job-aside-title span{
     font-size: 0.75rem;
     font-weight: 600;
     color: var(--text-secondary-color);
+    cursor: pointer;
+}
+.job-aside-title span:hover {
+    color: var(--link-hover-color);
 }
 /* ==== ==== JOB ASIDE BUTTON ==== ==== */
 
@@ -257,4 +262,16 @@
  .profile-third-aside-card div span{
      font-size: 0.625rem;
      font-weight: 500;
+ }
+ .job-container button:hover {
+    background: linear-gradient(180deg, #078fd9 0%, #0d77ac 100%);
+ }
+ .job-container .sort-container.jobs-for-you-hr {
+    margin-bottom: 30px;
+ }
+ .job-search img {
+    cursor: pointer;
+ }
+ .search-edit-list {
+    cursor: pointer;
  }
