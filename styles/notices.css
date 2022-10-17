@@ -23,6 +23,14 @@
     flex-direction: column;
     gap: 20px;
 }
+.active-border-notices {
+    position: absolute;
+    width: 73px;
+    margin-left: -10px;
+    margin-top: 14px;
+    border-bottom: 2px solid var(--text-secondary-color);
+    cursor: default;
+}
 
 /* NOTICES FIRST ASIDE */
 
@@ -78,12 +86,17 @@
 .notices-first-aside-title p{
     font-size: 0.75rem;
     font-weight: 700;
+    user-select: none;
 }
 .notices-first-aside-title span{
     font-size: 0.75rem;
     font-weight: 600;
     color: var(--text-secondary-color);
     text-decoration: underline;
+}
+.notices-first-aside-title span:hover{
+    color: var(--link-hover-color);
+    cursor: pointer;
 }
 .notices-first-aside-cards-all{
     display: flex;
